@@ -96,7 +96,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 6rem;
   max-width: 1200px;
   width: 100%;
   flex-wrap: wrap;
@@ -403,3 +403,4 @@ footer .social a:hover svg {
   .tile img { height: 150px; }
   .menu a { margin-left: 1rem; }
 }
+
