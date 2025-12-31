@@ -53,9 +53,6 @@ header {
 nav a{
   color: #fff;
 }
-p{
-  font-size: 1.1rem;
-}
 
 
 .brand {
@@ -96,7 +93,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12rem;
+  gap: 14rem;
   max-width: 1200px;
   width: 100%;
   flex-wrap: wrap;
@@ -116,7 +113,7 @@ p{
   color: #f5c84b;
   font-weight: 600;
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -151,8 +148,9 @@ p{
   max-width: 450px;
   height: 450px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 50%;
   transition: transform 0.6s ease-out;
+ border: #f5c84b 5px solid;
 }
 .hero-img-wrap:hover .hero-img {
   transform: translateY(-10px) scale(1.05);
@@ -165,6 +163,9 @@ p{
 /* ========== ABOUT ========== */
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 .section-title { font-size: 2rem; text-align: center; margin-bottom: 2rem; }
+.about  p{
+  font-size: 1.2rem;
+}
 .about-grid { display: flex; gap: 3rem; flex-wrap: wrap; align-items: center; }
 .about-card { flex: 1; }
 .about-photo { flex: 1; }
@@ -403,8 +404,3 @@ footer .social a:hover svg {
   .tile img { height: 150px; }
   .menu a { margin-left: 1rem; }
 }
-
-
-
-
-
